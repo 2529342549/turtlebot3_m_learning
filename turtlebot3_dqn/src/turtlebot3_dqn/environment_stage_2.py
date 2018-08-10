@@ -40,8 +40,8 @@ class Env():
         self.pub_cmd_vel = rospy.Publisher('cmd_vel', Twist, queue_size=5)
         self.sub_odom = rospy.Subscriber('odom', Odometry, self.getOdometry)
         self.reset_proxy = rospy.ServiceProxy('gazebo/reset_simulation', Empty)
-        self.unpause_proxy = rospy.ServiceProxy('/gazebo/unpause_physics', Empty)
-        self.pause_proxy = rospy.ServiceProxy('/gazebo/pause_physics', Empty)
+        self.unpause_proxy = rospy.ServiceProxy('gazebo/unpause_physics', Empty)
+        self.pause_proxy = rospy.ServiceProxy('gazebo/pause_physics', Empty)
         self.respawn_goal = Respawn()
 
     def getGoalDistace(self):
@@ -56,6 +56,7 @@ class Env():
         _, _, yaw = euler_from_quaternion(orientation_list)
 
         goal_angle = math.atan2(self.goal_y - self.position.y, self.goal_x - self.position.x)
+    	#rospy.loginfo("x:%s y:%s ", self.position.x, self.position.y )
 
         heading = goal_angle - yaw
         if heading > pi:
@@ -82,6 +83,7 @@ class Env():
 
         obstacle_min_range = round(min(scan_range), 2)
         obstacle_angle = np.argmin(scan_range)
+	#rospy.loginfo("min_range:%s angle:%s scan_range:%s", obstacle_min_range,obstacle_angle, scan_range )
         if min_range > min(scan_range) > 0:
             done = True
 
@@ -124,14 +126,14 @@ class Env():
         ang_vel = ((self.action_size - 1)/2 - action) * max_angular_vel * 0.5
 
         vel_cmd = Twist()
-        vel_cmd.linear.x = 0.15
+        vel_cmd.linear.x = 0.2
         vel_cmd.angular.z = ang_vel
         self.pub_cmd_vel.publish(vel_cmd)
 
         data = None
         while data is None:
             try:
-                data = rospy.wait_for_message('/scan', LaserScan, timeout=5)
+                data = rospy.wait_for_message('scan', LaserScan, timeout=5)
             except:
                 pass
 
@@ -141,16 +143,16 @@ class Env():
         return np.asarray(state), reward, done
 
     def reset(self):
-        rospy.wait_for_service('/gazebo/reset_simulation')
+        rospy.wait_for_service('gazebo/reset_simulation')
         try:
             self.reset_proxy()
         except (rospy.ServiceException) as e:
-            print("/gazebo/reset_simulation service call failed")
+            print("gazebo/reset_simulation service call failed")
 
         data = None
         while data is None:
             try:
-                data = rospy.wait_for_message('/scan', LaserScan, timeout=5)
+                data = rospy.wait_for_message('scan', LaserScan, timeout=5)
             except:
                 pass
 
@@ -160,5 +162,6 @@ class Env():
 
         self.goal_distance = self.getGoalDistace()
         state, done = self.getState(data)
+	rospy.loginfo("state :%s", state )
 
         return np.asarray(state)
