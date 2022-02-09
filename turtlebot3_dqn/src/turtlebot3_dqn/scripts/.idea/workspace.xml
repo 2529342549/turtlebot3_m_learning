@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c0e6d43-1a52-45c3-aaf9-a602349a0e44" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../launch/result_graph.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../../launch/result_graph.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../launch/turtlebot3_dqn_stage_1.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../../launch/turtlebot3_dqn_stage_1.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../launch/turtlebot3_dqn_stage_2.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../../launch/turtlebot3_dqn_stage_2.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../launch/turtlebot3_dqn_stage_3.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../../launch/turtlebot3_dqn_stage_3.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../launch/turtlebot3_dqn_stage_4.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../../../launch/turtlebot3_dqn_stage_4.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../nodes/turtlebot3_dqn_stage_2" beforeDir="false" afterPath="$PROJECT_DIR$/../../../nodes/turtlebot3_dqn_stage_2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../save_model/stage_1_10.h5" beforeDir="false" afterPath="$PROJECT_DIR$/../../../save_model/stage_1_10.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../save_model/stage_1_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../save_model/stage_1_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../save_model/stage_2_10.h5" beforeDir="false" afterPath="$PROJECT_DIR$/../../../save_model/stage_2_10.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../save_model/stage_2_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../save_model/stage_2_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../save_model/stage_3_10.h5" beforeDir="false" afterPath="$PROJECT_DIR$/../../../save_model/stage_3_10.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../save_model/stage_3_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../save_model/stage_3_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../save_model/stage_4_10.h5" beforeDir="false" afterPath="$PROJECT_DIR$/../../../save_model/stage_4_10.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../save_model/stage_4_10.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../save_model/stage_4_10.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../environment_stage_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../environment_stage_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../turtlebot3_machine_learning/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../turtlebot3_machine_learning/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../turtlebot3_machine_learning/package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../turtlebot3_machine_learning/package.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24sMUBM3DoUpGiCt5qHYEHsi4JL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c0e6d43-1a52-45c3-aaf9-a602349a0e44" name="Changes" comment="" />
+      <created>1644414854848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644414854848</updated>
+    </task>
+    <servers />
+  </component>
+</project>
